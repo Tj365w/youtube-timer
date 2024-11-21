@@ -6,6 +6,9 @@
 // @author       TJ365W
 // @match        *://www.youtube.com/*
 // @grant        none
+// @license      MIT
+// @downloadURL https://update.greasyfork.org/scripts/518354/Youtube%20Timer.user.js
+// @updateURL https://update.greasyfork.org/scripts/518354/Youtube%20Timer.meta.js
 // ==/UserScript==
 //this is the first version of ytb timer, written by TJ365W,I plan to make this open source and as customizable as possible, it will be slow and sure proccess.Running localStorage.clear() will reset
 // the extension to its initial install state, to simply reset the timer delete the 'a' parameter from local storage.
@@ -13,7 +16,7 @@
 
 function anchor(){
     if(window.location.href!=url){urload()}}
-function urload(){if(m){window.location.href = url};//redirects url
+function urload(){if(m){setTimeout(function(){window.location.href = url},1000)};//redirects url
 de_distract()}
 
 function de_distract() {//main body for lock on tool
