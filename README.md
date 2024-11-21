@@ -6,13 +6,22 @@ Tool 2- De-distractor- it locks on to a particular video and prevents video/url 
 
 Note: The timer will be automatically paused when viewing the locked video and will automatically resume as well.
 
+
+
 key board shortcuts:
 
 Alt+T => set a daily time limit on ytb. the default is 5 minutes. Note: the timer will be paused when viewing the locked on video.
+
+
 Alt+Q => Turn de-distractor on and off, turning the de-distractor off will allow to change videos, turning it on will force switch to the locked on video.
+
+
 Alt+A => Locks on to the current page.
+
+
 Alt+Z => Allows the user to change the background image or gif for the block page. Upload the link for your image or gif and it shall play when ytb is blocked.
 Note: Please enter the link to the image or gif, not to the web-site containing the image or gif, all rendering will be online.
+
 
 Note: All setting will be saved locally for all future references. including de-distractor on/off, do remember to turn it on when studying or working.
 
